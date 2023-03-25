@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hoppo.BackgroundServices\Hoppo.BackgroundServices.csproj" />
+    <ProjectReference Include="..\Hoppo.DependencyResolver\Hoppo.DependencyResolver.csproj" />
+  </ItemGroup>
+
+</Project>
